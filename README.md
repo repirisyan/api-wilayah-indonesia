@@ -1,6 +1,6 @@
 # Getting Started
 
-Project ini bertujuan untuk mempermudah developer yang ingin mendapatkan data wilayah di indonesia dengan mudah.untuk penggunaan api tersebut silahkan buka website ['api-wilayah-indonesia-nusantara'](https://api-wilayah-indonesia-nusantara.vercel.app)
+Project ini bertujuan untuk mempermudah developer yang ingin mendapatkan data wilayah di indonesia dengan mudah.untuk penggunaan api tersebut silahkan buka website ['API Wilayah Indonesia'](https://wilayah-indonesia-api.vercel.app)
 
 ## Deploy on Vercel
 
