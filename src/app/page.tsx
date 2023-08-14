@@ -25,14 +25,14 @@ export default function Home() {
             GET Data Provinsi
           </h1>
           <p>
-            URL : <code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/provinsi</code>
+            <code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/provinsi</code>
           </p>
         </section>
         <section className='mt-5'>
           <h1>
             GET Data Kota
           </h1>
-          <p>URL : <code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/kota/provinsi_id</code></p>
+          <p><code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/kota/provinsi_id</code></p>
           <p
             className="inline-block mt-2 whitespace-nowrap rounded-[0.27rem] bg-neutral-800 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-50 dark:bg-neutral-900">
             <div className="flex items-center">
@@ -47,7 +47,7 @@ export default function Home() {
           <h1>
             GET Data Kecamatan
           </h1>
-          <p>URL : <code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/kecamatan/kota_id</code></p>
+          <p><code className='font-bold'>https://api-wilayah-indonesia-nusantara.vercel.app/api/kecamatan/kota_id</code></p>
           <p
             className="inline-block mt-2 whitespace-nowrap rounded-[0.27rem] bg-neutral-800 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-50 dark:bg-neutral-900">
             <span className="flex items-center">
