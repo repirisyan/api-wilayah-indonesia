@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "provinsi_id": 1,
+        "nama": "Palang Karaya"
+    },
+    {
+        "id": 2,
+        "provinsi_id": 2,
+        "nama": "Bandung"
+    }
+]
