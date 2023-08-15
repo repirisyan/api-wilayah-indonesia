@@ -81,13 +81,13 @@ export default function Home() {
           <h1>
             Data Kota
           </h1>
-          <CodeBlock code={"\n https://region-indonesia.vercel.app/api/kota/provinsi_id"} />
+          <CodeBlock code={"\n https://region-indonesia.vercel.app/api/kota?provinsi_id={id_provinsi}"} />
         </section>
         <section className='mt-5'>
           <h1>
             Data Kecamatan
           </h1>
-          <CodeBlock code={"\n https://region-indonesia.vercel.app/api/kecamatan/kota_id"} />
+          <CodeBlock code={"\n https://region-indonesia.vercel.app/api/kecamatan?kota_id={id_kota}"} />
         </section>
       </div>
 
