@@ -3,7 +3,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicateIcon";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const CopyBoard = (pre: any) => {
 
@@ -47,8 +47,8 @@ const CodeBlock = (context: any) => {
   );
 };
 
-
 export default function Home() {
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -67,6 +67,30 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-20 grid grid-cols-1">
+        <section className='hidden md:block mb-6 mx-auto'>
+          <div className="alert bg-slate-400 mb-5 text-black">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span>Still on Development...</span>
+          </div>
+          <div className="stats shadow">
+
+            <div className="stat place-items-center">
+              <div className="stat-title">Provinsi</div>
+              <div className="stat-value">38</div>
+            </div>
+
+            <div className="stat place-items-center">
+              <div className="stat-title">Kabupaten</div>
+              <div className="stat-value">1.000</div>
+            </div>
+
+            <div className="stat place-items-center">
+              <div className="stat-title">Kecamatan</div>
+              <div className="stat-value">2.000</div>
+            </div>
+
+          </div>
+        </section>
         <section>
           <h1>
             Data Provinsi
