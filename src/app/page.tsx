@@ -22,6 +22,7 @@ const CopyBoard = (pre: any) => {
       >
         <CopyToClipboard
           text={pre.url}
+          // eslint-disable-next-line @typescript-eslint/no-misused-promises
           onCopy={async () => {
             setCopyTip("Copied");
             await new Promise((resolve) => setTimeout(resolve, 500));
