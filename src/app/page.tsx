@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import CopyToClipboard from 'react-copy-to-clipboard';
