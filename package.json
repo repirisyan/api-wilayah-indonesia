@@ -26,8 +26,10 @@
   },
   "devDependencies": {
     "@heroicons/react": "^2.0.18",
+    "@next/bundle-analyzer": "^13.4.16",
     "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-syntax-highlighter": "^15.5.7",
+    "cross-env": "^7.0.3",
     "daisyui": "^3.5.1"
   }
 }

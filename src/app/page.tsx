@@ -42,13 +42,11 @@ const CodeBlock = (context: any) => {
       <SyntaxHighlighter
         language=""
         style={oneDark}
-        scrollbarClass="overflow-hidden"
         children={context.code}
       />
     </div>
   );
 };
-
 
 
 export default function Home() {
@@ -69,7 +67,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <div className="mt-20 grid grid-cols-1">
         <section>
           <h1>
@@ -92,15 +89,6 @@ export default function Home() {
       </div>
 
       <div className="text-center mt-14">
-        <h2 className={`mb-3 text-2xl font-semibold`}>
-          Powered By :
-          <Image className='invert mx-auto my-3'
-            src="/vercel.svg"
-            width={80}
-            height={80}
-            alt="Vercel Logo"
-          />
-        </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           &copy; 2023 repirisyan. All Right Reserved
         </p>
