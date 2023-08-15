@@ -2,11 +2,1416 @@
     {
         "id": 1,
         "kota_id": 1,
-        "nama": "Pacet"
+        "nama": "Kecamatan Johan Pahlawan"
     },
     {
         "id": 2,
+        "kota_id": 1,
+        "nama": "Sama Tiga"
+    },
+    {
+        "id": 3,
+        "kota_id": 1,
+        "nama": "Bubon"
+    },
+    {
+        "id": 4,
+        "kota_id": 1,
+        "nama": "Arongan Lambalek"
+    },
+    {
+        "id": 5,
+        "kota_id": 1,
+        "nama": "Woyla"
+    },
+    {
+        "id": 6,
+        "kota_id": 1,
+        "nama": "Woyla Barat"
+    },
+    {
+        "id": 7,
+        "kota_id": 1,
+        "nama": "Woyla Timur"
+    },
+    {
+        "id": 8,
+        "kota_id": 1,
+        "nama": "Kaway XVI"
+    },
+    {
+        "id": 9,
+        "kota_id": 1,
+        "nama": "Meurcubo"
+    },
+    {
+        "id": 10,
+        "kota_id": 1,
+        "nama": "Pante Ceureumen"
+    },
+    {
+        "id": 11,
+        "kota_id": 1,
+        "nama": "Sungai Mas"
+    },
+    {
+        "id": 12,
+        "kota_id": 1,
+        "nama": "Panton Reu"
+    },
+    {
+        "id": 13,
         "kota_id": 2,
-        "nama": "Kuningan"
+        "nama": "Blangpidie"
+    },
+    {
+        "id": 14,
+        "kota_id": 2,
+        "nama": "Tangan-tangan"
+    },
+    {
+        "id": 15,
+        "kota_id": 2,
+        "nama": "Manggeng"
+    },
+    {
+        "id": 16,
+        "kota_id": 2,
+        "nama": "Susoh"
+    },
+    {
+        "id": 17,
+        "kota_id": 2,
+        "nama": "Kuala Batee"
+    },
+    {
+        "id": 18,
+        "kota_id": 2,
+        "nama": "Bubah Rot"
+    },
+    {
+        "id": 19,
+        "kota_id": 2,
+        "nama": "Setia"
+    },
+    {
+        "id": 20,
+        "kota_id": 2,
+        "nama": "Jeumpa"
+    },
+    {
+        "id": 21,
+        "kota_id": 2,
+        "nama": "Lembah Sabil"
+    },
+    {
+        "id": 22,
+        "kota_id": 3,
+        "nama": "Baitussalam"
+    },
+    {
+        "id": 23,
+        "kota_id": 3,
+        "nama": "Blang Bintang"
+    },
+    {
+        "id": 24,
+        "kota_id": 3,
+        "nama": "Darul Imarah"
+    },
+    {
+        "id": 25,
+        "kota_id": 3,
+        "nama": "Darul Kamal"
+    },
+    {
+        "id": 26,
+        "kota_id": 3,
+        "nama": "Darussalam"
+    },
+    {
+        "id": 27,
+        "kota_id": 3,
+        "nama": "Indrapuri"
+    },
+    {
+        "id": 28,
+        "kota_id": 3,
+        "nama": "Ingin Jaya"
+    },
+    {
+        "id": 29,
+        "kota_id": 3,
+        "nama": "Kota Jantho"
+    },
+    {
+        "id": 30,
+        "kota_id": 3,
+        "nama": "Krueng Barona Jaya"
+    },
+    {
+        "id": 31,
+        "kota_id": 3,
+        "nama": "Kuta Baro"
+    },
+    {
+        "id": 32,
+        "kota_id": 3,
+        "nama": "Kuta Cot Glie"
+    },
+    {
+        "id": 33,
+        "kota_id": 3,
+        "nama": "Kuta Malaka"
+    },
+    {
+        "id": 34,
+        "kota_id": 3,
+        "nama": "Lembah Seulawah"
+    },
+    {
+        "id": 35,
+        "kota_id": 3,
+        "nama": "Leupung"
+    },
+    {
+        "id": 36,
+        "kota_id": 3,
+        "nama": "Lhoknga"
+    },
+    {
+        "id": 37,
+        "kota_id": 3,
+        "nama": "Lhoong"
+    },
+    {
+        "id": 38,
+        "kota_id": 3,
+        "nama": "Mesjid Raya"
+    },
+    {
+        "id": 39,
+        "kota_id": 3,
+        "nama": "Montasik"
+    },
+    {
+        "id": 40,
+        "kota_id": 3,
+        "nama": "Peukan Bada"
+    },
+    {
+        "id": 41,
+        "kota_id": 3,
+        "nama": "Pulo Aceh"
+    },
+    {
+        "id": 42,
+        "kota_id": 3,
+        "nama": "Selimeum"
+    },
+    {
+        "id": 43,
+        "kota_id": 3,
+        "nama": "Simpang Tiga"
+    },
+    {
+        "id": 44,
+        "kota_id": 3,
+        "nama": "Suka Makmur"
+    },
+    {
+        "id": 45,
+        "kota_id": 4,
+        "nama": "Jaya"
+    },
+    {
+        "id": 46,
+        "kota_id": 4,
+        "nama": "Indra Jaua"
+    },
+    {
+        "id": 47,
+        "kota_id": 4,
+        "nama": "Sampoiniet"
+    },
+    {
+        "id": 48,
+        "kota_id": 4,
+        "nama": "Daru Hikmah"
+    },
+    {
+        "id": 49,
+        "kota_id": 4,
+        "nama": "Setia Bekti"
+    },
+    {
+        "id": 50,
+        "kota_id": 4,
+        "nama": "Krueng Sabee"
+    },
+    {
+        "id": 51,
+        "kota_id": 4,
+        "nama": "Panga"
+    },
+    {
+        "id": 52,
+        "kota_id": 4,
+        "nama": "Teunom"
+    },
+    {
+        "id": 53,
+        "kota_id": 4,
+        "nama": "Pasie Raya"
+    },
+    {
+        "id": 54,
+        "kota_id": 5,
+        "nama": "Bakongan"
+    },
+    {
+        "id": 55,
+        "kota_id": 5,
+        "nama": "Bakongan Timur"
+    },
+    {
+        "id": 55,
+        "kota_id": 5,
+        "nama": "Kluet Selatan"
+    },
+    {
+        "id": 57,
+        "kota_id": 5,
+        "nama": "Kluet Tengah"
+    },
+    {
+        "id": 58,
+        "kota_id": 5,
+        "nama": "Kluet Timur"
+    },
+    {
+        "id": 59,
+        "kota_id": 5,
+        "nama": "Kluet Utara"
+    },
+    {
+        "id": 60,
+        "kota_id": 5,
+        "nama": "Kota Bahagia"
+    },
+    {
+        "id": 62,
+        "kota_id": 5,
+        "nama": "Labuhan Haji"
+    },
+    {
+        "id": 63,
+        "kota_id": 5,
+        "nama": "Labuhan Haji Barat"
+    },
+    {
+        "id": 64,
+        "kota_id": 5,
+        "nama": "Labuhan Haji Tumur"
+    },
+    {
+        "id": 65,
+        "kota_id": 5,
+        "nama": "Meukek"
+    },
+    {
+        "id": 66,
+        "kota_id": 5,
+        "nama": "Pasie Raja"
+    },
+    {
+        "id": 67,
+        "kota_id": 5,
+        "nama": "Samadua"
+    },
+    {
+        "id": 68,
+        "kota_id": 5,
+        "nama": "Sawang"
+    },
+    {
+        "id": 69,
+        "kota_id": 5,
+        "nama": "Tapak Tuan"
+    },
+    {
+        "id": 70,
+        "kota_id": 5,
+        "nama": "Trumon"
+    },
+    {
+        "id": 71,
+        "kota_id": 5,
+        "nama": "Trumon Tengah"
+    },
+    {
+        "id": 72,
+        "kota_id": 5,
+        "nama": "Trumon Timur"
+    },
+    {
+        "id": 73,
+        "kota_id": 6,
+        "nama": "Pulau Banyak"
+    },
+    {
+        "id": 74,
+        "kota_id": 6,
+        "nama": "Pulau Banyak Barat"
+    },
+    {
+        "id": 75,
+        "kota_id": 6,
+        "nama": "Singkil"
+    },
+    {
+        "id": 76,
+        "kota_id": 6,
+        "nama": "Singkil Utara"
+    },
+    {
+        "id": 77,
+        "kota_id": 6,
+        "nama": "Kuala Baru"
+    },
+    {
+        "id": 78,
+        "kota_id": 6,
+        "nama": "Simpang Kanan"
+    },
+    {
+        "id": 79,
+        "kota_id": 6,
+        "nama": "Gunung Meriah"
+    },
+    {
+        "id": 80,
+        "kota_id": 6,
+        "nama": "Danau Paris"
+    },
+    {
+        "id": 81,
+        "kota_id": 6,
+        "nama": "Suro"
+    },
+    {
+        "id": 82,
+        "kota_id": 6,
+        "nama": "Singkohor"
+    },
+    {
+        "id": 83,
+        "kota_id": 6,
+        "nama": "Kota Baharu"
+    },
+    {
+        "id": 84,
+        "kota_id": 7,
+        "nama": "Manyak Payed"
+    },
+    {
+        "id": 85,
+        "kota_id": 7,
+        "nama": "Bendahara"
+    },
+    {
+        "id": 86,
+        "kota_id": 7,
+        "nama": "Banda Mulia"
+    },
+    {
+        "id": 87,
+        "kota_id": 7,
+        "nama": "Karang Baru"
+    },
+    {
+        "id": 88,
+        "kota_id": 7,
+        "nama": "Sekerak"
+    },
+    {
+        "id": 89,
+        "kota_id": 7,
+        "nama": "Seruway"
+    },
+    {
+        "id": 90,
+        "kota_id": 7,
+        "nama": "Kota Kualasimpang"
+    },
+    {
+        "id": 91,
+        "kota_id": 7,
+        "nama": "Kejuruan Muda"
+    },
+    {
+        "id": 92,
+        "kota_id": 7,
+        "nama": "Tenggulun"
+    },
+    {
+        "id": 93,
+        "kota_id": 7,
+        "nama": "Tamiang Hulu"
+    },
+    {
+        "id": 94,
+        "kota_id": 7,
+        "nama": "Bandar Pusaka"
+    },
+    {
+        "id": 95,
+        "kota_id": 7,
+        "nama": "Rantau"
+    },
+    {
+        "id": 96,
+        "kota_id": 8,
+        "nama": "Atu Lintang"
+    },
+    {
+        "id": 97,
+        "kota_id": 8,
+        "nama": "Bebesen"
+    },
+    {
+        "id": 98,
+        "kota_id": 8,
+        "nama": "Bies"
+    },
+    {
+        "id": 99,
+        "kota_id": 8,
+        "nama": "Bintang"
+    },
+    {
+        "id": 100,
+        "kota_id": 8,
+        "nama": "Celala"
+    },
+    {
+        "id": 101,
+        "kota_id": 8,
+        "nama": "Jagong Jeget"
+    },
+    {
+        "id": 102,
+        "kota_id": 8,
+        "nama": "Kebanyakan"
+    },
+    {
+        "id": 103,
+        "kota_id": 8,
+        "nama": "Ketol"
+    },
+    {
+        "id": 104,
+        "kota_id": 8,
+        "nama": "Ketol"
+    },
+    {
+        "id": 105,
+        "kota_id": 8,
+        "nama": "Kute Panang"
+    },
+    {
+        "id": 106,
+        "kota_id": 8,
+        "nama": "Laut Tawar"
+    },
+    {
+        "id": 107,
+        "kota_id": 8,
+        "nama": "Linge"
+    },
+    {
+        "id": 108,
+        "kota_id": 8,
+        "nama": "Pegasing"
+    },
+    {
+        "id": 109,
+        "kota_id": 8,
+        "nama": "Rusip Antara"
+    },
+    {
+        "id": 110,
+        "kota_id": 8,
+        "nama": "Silih Nara"
+    },
+    {
+        "id": 111,
+        "kota_id": 9,
+        "nama": "Lawe Alas"
+    },
+    {
+        "id": 112,
+        "kota_id": 9,
+        "nama": "Babul Rahmah"
+    },
+    {
+        "id": 113,
+        "kota_id": 9,
+        "nama": "Tanoh Alas"
+    },
+    {
+        "id": 114,
+        "kota_id": 9,
+        "nama": "Lawe Sigala"
+    },
+    {
+        "id": 115,
+        "kota_id": 9,
+        "nama": "Babul Makmur"
+    },
+    {
+        "id": 116,
+        "kota_id": 9,
+        "nama": "Semadam"
+    },
+    {
+        "id": 117,
+        "kota_id": 9,
+        "nama": "Leuser"
+    },
+    {
+        "id": 118,
+        "kota_id": 9,
+        "nama": "Bambel"
+    },
+    {
+        "id": 119,
+        "kota_id": 9,
+        "nama": "Bukit Tusam"
+    },
+    {
+        "id": 120,
+        "kota_id": 9,
+        "nama": "Lawe Sumur"
+    },
+    {
+        "id": 121,
+        "kota_id": 9,
+        "nama": "Babussalam"
+    },
+    {
+        "id": 122,
+        "kota_id": 9,
+        "nama": "Lawe Bulan"
+    },
+    {
+        "id": 123,
+        "kota_id": 9,
+        "nama": "Badar"
+    },
+    {
+        "id": 124,
+        "kota_id": 9,
+        "nama": "Darul Hasanah"
+    },
+    {
+        "id": 125,
+        "kota_id": 9,
+        "nama": "Ketambe"
+    },
+    {
+        "id": 126,
+        "kota_id": 9,
+        "nama": "Daleng Pokhisen"
+    },
+    {
+        "id": 127,
+        "kota_id": 10,
+        "nama": "Simpang Ulim"
+    },
+    {
+        "id": 128,
+        "kota_id": 10,
+        "nama": "Julok"
+    },
+    {
+        "id": 129,
+        "kota_id": 10,
+        "nama": "Narussalam"
+    },
+    {
+        "id": 130,
+        "kota_id": 10,
+        "nama": "Darul Aman"
+    },
+    {
+        "id": 131,
+        "kota_id": 10,
+        "nama": "Idi Rayeuk"
+    },
+    {
+        "id": 132,
+        "kota_id": 10,
+        "nama": "Perureulak"
+    },
+    {
+        "id": 133,
+        "kota_id": 10,
+        "nama": "Rantau Selamat"
+    },
+    {
+        "id": 134,
+        "kota_id": 10,
+        "nama": "Birem Bayeun"
+    },
+    {
+        "id": 135,
+        "kota_id": 10,
+        "nama": "Serba Jadi"
+    },
+    {
+        "id": 136,
+        "kota_id": 10,
+        "nama": "Rantau Peureulak"
+    },
+    {
+        "id": 137,
+        "kota_id": 10,
+        "nama": "Sungai Raya"
+    },
+    {
+        "id": 138,
+        "kota_id": 10,
+        "nama": "Simpang Jernih"
+    },
+    {
+        "id": 139,
+        "kota_id": 10,
+        "nama": "Darul Ihsan"
+    },
+    {
+        "id": 140,
+        "kota_id": 10,
+        "nama": "Peunaron"
+    },
+    {
+        "id": 141,
+        "kota_id": 10,
+        "nama": "Idi Timur"
+    },
+    {
+        "id": 142,
+        "kota_id": 10,
+        "nama": "Darul Falah"
+    },
+    {
+        "id": 143,
+        "kota_id": 11,
+        "nama": "Sawang"
+    },
+    {
+        "id": 144,
+        "kota_id": 11,
+        "nama": "Nisam"
+    },
+    {
+        "id": 145,
+        "kota_id": 11,
+        "nama": "Nisam Antara"
+    },
+    {
+        "id": 146,
+        "kota_id": 11,
+        "nama": "Banda Baro"
+    },
+    {
+        "id": 147,
+        "kota_id": 11,
+        "nama": "Kuta Makmur"
+    },
+    {
+        "id": 148,
+        "kota_id": 11,
+        "nama": "Simpang Kramat"
+    },
+    {
+        "id": 149,
+        "kota_id": 11,
+        "nama": "Syamtalira Bayu"
+    },
+    {
+        "id": 150,
+        "kota_id": 11,
+        "nama": "Geureudong Pase"
+    },
+    {
+        "id": 151,
+        "kota_id": 11,
+        "nama": "Meurah Mulia"
+    },
+    {
+        "id": 152,
+        "kota_id": 11,
+        "nama": "Matang Kuli"
+    },
+    {
+        "id": 153,
+        "kota_id": 11,
+        "nama": "Paya Bakong"
+    },
+    {
+        "id": 154,
+        "kota_id": 11,
+        "nama": "Pirak Timur"
+    },
+    {
+        "id": 155,
+        "kota_id": 11,
+        "nama": "Cot Girek"
+    },
+    {
+        "id": 156,
+        "kota_id": 11,
+        "nama": "Tanah Jambo Aye"
+    },
+    {
+        "id": 157,
+        "kota_id": 11,
+        "nama": "Langkahan"
+    },
+    {
+        "id": 158,
+        "kota_id": 11,
+        "nama": "Seunuddon"
+    },
+    {
+        "id": 159,
+        "kota_id": 11,
+        "nama": "Baktiya"
+    },
+    {
+        "id": 160,
+        "kota_id": 11,
+        "nama": "Baktiya Barat"
+    },
+    {
+        "id": 161,
+        "kota_id": 11,
+        "nama": "Lhosksukon"
+    },
+    {
+        "id": 162,
+        "kota_id": 11,
+        "nama": "Tanah Luas"
+    },
+    {
+        "id": 163,
+        "kota_id": 11,
+        "nama": "Nihong"
+    },
+    {
+        "id": 164,
+        "kota_id": 11,
+        "nama": "Samudera"
+    },
+    {
+        "id": 165,
+        "kota_id": 11,
+        "nama": "Syamtalira Aron"
+    },
+    {
+        "id": 166,
+        "kota_id": 11,
+        "nama": "Tanah Pasir"
+    },
+    {
+        "id": 167,
+        "kota_id": 11,
+        "nama": "Lapang"
+    },
+    {
+        "id": 168,
+        "kota_id": 11,
+        "nama": "Muara Batu"
+    },
+    {
+        "id": 169,
+        "kota_id": 11,
+        "nama": "Dewantara"
+    },
+    {
+        "id": 170,
+        "kota_id": 12,
+        "nama": "Pintu Rime Gayo"
+    },
+    {
+        "id": 171,
+        "kota_id": 12,
+        "nama": "Permata"
+    },
+    {
+        "id": 172,
+        "kota_id": 12,
+        "nama": "Syiah Utama"
+    },
+    {
+        "id": 173,
+        "kota_id": 12,
+        "nama": "Bandar"
+    },
+    {
+        "id": 174,
+        "kota_id": 12,
+        "nama": "Wih Pesam"
+    },
+    {
+        "id": 175,
+        "kota_id": 12,
+        "nama": "Timang Gajah"
+    },
+    {
+        "id": 176,
+        "kota_id": 12,
+        "nama": "Bukit"
+    },
+    {
+        "id": 177,
+        "kota_id": 12,
+        "nama": "Bener Kelipah"
+    },
+    {
+        "id": 178,
+        "kota_id": 12,
+        "nama": "Mesidah"
+    },
+    {
+        "id": 179,
+        "kota_id": 13,
+        "nama": "Samalangan"
+    },
+    {
+        "id": 180,
+        "kota_id": 13,
+        "nama": "Simpang Mamplam"
+    },
+    {
+        "id": 181,
+        "kota_id": 13,
+        "nama": "Pandrah"
+    },
+    {
+        "id": 182,
+        "kota_id": 13,
+        "nama": "Jeunieb"
+    },
+    {
+        "id": 183,
+        "kota_id": 13,
+        "nama": "Peulimbang"
+    },
+    {
+        "id": 184,
+        "kota_id": 13,
+        "nama": "Peudada"
+    },
+    {
+        "id": 185,
+        "kota_id": 13,
+        "nama": "Juli"
+    },
+    {
+        "id": 186,
+        "kota_id": 13,
+        "nama": "Jeumpa"
+    },
+    {
+        "id": 187,
+        "kota_id": 13,
+        "nama": "Kota Juang"
+    },
+    {
+        "id": 188,
+        "kota_id": 13,
+        "nama": "Kuala"
+    },
+    {
+        "id": 189,
+        "kota_id": 13,
+        "nama": "jangka"
+    },
+    {
+        "id": 190,
+        "kota_id": 13,
+        "nama": "Peusangan"
+    },
+    {
+        "id": 191,
+        "kota_id": 13,
+        "nama": "Peusangan Selatan"
+    },
+    {
+        "id": 192,
+        "kota_id": 13,
+        "nama": "Pesangan Siblah Krueng"
+    },
+    {
+        "id": 193,
+        "kota_id": 13,
+        "nama": "Makmur"
+    },
+    {
+        "id": 194,
+        "kota_id": 13,
+        "nama": "Gandapura"
+    },
+    {
+        "id": 195,
+        "kota_id": 13,
+        "nama": "Kuta Blang"
+    },
+    {
+        "id": 196,
+        "kota_id": 14,
+        "nama": "Blang Jerango"
+    },
+    {
+        "id": 197,
+        "kota_id": 14,
+        "nama": "Blang Kejeren"
+    },
+    {
+        "id": 198,
+        "kota_id": 14,
+        "nama": "Blang Pegayon"
+    },
+    {
+        "id": 199,
+        "kota_id": 14,
+        "nama": "Dabun Gelang/Debun Gelang"
+    },
+    {
+        "id": 200,
+        "kota_id": 14,
+        "nama": "Kuta Panjang"
+    },
+    {
+        "id": 201,
+        "kota_id": 14,
+        "nama": "Pantan Cuaca"
+    },
+    {
+        "id": 202,
+        "kota_id": 14,
+        "nama": "Pining/Pinding"
+    },
+    {
+        "id": 203,
+        "kota_id": 14,
+        "nama": "Putri Betung"
+    },
+    {
+        "id": 204,
+        "kota_id": 14,
+        "nama": "Rikit Gaib"
+    },
+    {
+        "id": 205,
+        "kota_id": 14,
+        "nama": "Teripe Jaya/Tripe Jaya"
+    },
+    {
+        "id": 206,
+        "kota_id": 14,
+        "nama": "Terangun/Terangon"
+    },
+    {
+        "id": 207,
+        "kota_id": 15,
+        "nama": "Beutong"
+    },
+    {
+        "id": 208,
+        "kota_id": 15,
+        "nama": "Beutong Ateuh Banggala"
+    },
+    {
+        "id": 209,
+        "kota_id": 15,
+        "nama": "Darul Makmur"
+    },
+    {
+        "id": 210,
+        "kota_id": 15,
+        "nama": "Kuala"
+    },
+    {
+        "id": 211,
+        "kota_id": 15,
+        "nama": "Kuala Pesisir"
+    },
+    {
+        "id": 212,
+        "kota_id": 15,
+        "nama": "Seunagan"
+    },
+    {
+        "id": 213,
+        "kota_id": 15,
+        "nama": "Seunagan Timur"
+    },
+    {
+        "id": 214,
+        "kota_id": 15,
+        "nama": "Suka Makmur"
+    },
+    {
+        "id": 215,
+        "kota_id": 15,
+        "nama": "Tadu Raya"
+    },
+    {
+        "id": 216,
+        "kota_id": 15,
+        "nama": "Tripa Makmur"
+    },
+    {
+        "id": 217,
+        "kota_id": 16,
+        "nama": "Batee"
+    },
+    {
+        "id": 218,
+        "kota_id": 16,
+        "nama": "Delima"
+    },
+    {
+        "id": 219,
+        "kota_id": 16,
+        "nama": "Geumpang"
+    },
+    {
+        "id": 220,
+        "kota_id": 16,
+        "nama": "Glumpang Baro"
+    },
+    {
+        "id": 221,
+        "kota_id": 16,
+        "nama": "Glumpang Tiga"
+    },
+    {
+        "id": 222,
+        "kota_id": 16,
+        "nama": "Glumpang Tiga"
+    },
+    {
+        "id": 223,
+        "kota_id": 16,
+        "nama": "Grong Grong"
+    },
+    {
+        "id": 224,
+        "kota_id": 16,
+        "nama": "Indrajaya"
+    },
+    {
+        "id": 225,
+        "kota_id": 16,
+        "nama": "Keumala"
+    },
+    {
+        "id": 226,
+        "kota_id": 16,
+        "nama": "Keumbang Tanjong"
+    },
+    {
+        "id": 227,
+        "kota_id": 16,
+        "nama": "Kota Sigli"
+    },
+    {
+        "id": 228,
+        "kota_id": 16,
+        "nama": "Mane"
+    },
+    {
+        "id": 229,
+        "kota_id": 16,
+        "nama": "Mila"
+    },
+    {
+        "id": 230,
+        "kota_id": 16,
+        "nama": "Muara Tiga"
+    },
+    {
+        "id": 231,
+        "kota_id": 16,
+        "nama": "Mutiara"
+    },
+    {
+        "id": 232,
+        "kota_id": 16,
+        "nama": "Mutiara Timur"
+    },
+    {
+        "id": 233,
+        "kota_id": 16,
+        "nama": "Padang Tiji"
+    },
+    {
+        "id": 234,
+        "kota_id": 16,
+        "nama": "Peukan Baro"
+    },
+    {
+        "id": 235,
+        "kota_id": 16,
+        "nama": "Pidie"
+    },
+    {
+        "id": 236,
+        "kota_id": 16,
+        "nama": "Sakti"
+    },
+    {
+        "id": 237,
+        "kota_id": 16,
+        "nama": "Simpang Tiga"
+    },
+    {
+        "id": 238,
+        "kota_id": 16,
+        "nama": "Tangse"
+    },
+    {
+        "id": 239,
+        "kota_id": 16,
+        "nama": "Tiro"
+    },
+    {
+        "id": 240,
+        "kota_id": 16,
+        "nama": "Titue"
+    },
+    {
+        "id": 241,
+        "kota_id": 17,
+        "nama": "Bandar Baru"
+    },
+    {
+        "id": 242,
+        "kota_id": 17,
+        "nama": "Bandar Dua"
+    },
+    {
+        "id": 243,
+        "kota_id": 17,
+        "nama": "Jangka Buaya"
+    },
+    {
+        "id": 244,
+        "kota_id": 17,
+        "nama": "Merurah Dua"
+    },
+    {
+        "id": 245,
+        "kota_id": 17,
+        "nama": "Meureudu"
+    },
+    {
+        "id": 246,
+        "kota_id": 17,
+        "nama": "Panteraja"
+    },
+    {
+        "id": 247,
+        "kota_id": 17,
+        "nama": "Trienggadeng"
+    },
+    {
+        "id": 248,
+        "kota_id": 17,
+        "nama": "Ulim"
+    },
+    {
+        "id": 249,
+        "kota_id": 18,
+        "nama": "Alafan"
+    },
+    {
+        "id": 250,
+        "kota_id": 18,
+        "nama": "Salang"
+    },
+    {
+        "id": 251,
+        "kota_id": 18,
+        "nama": "Simeulue Barat"
+    },
+    {
+        "id": 252,
+        "kota_id": 18,
+        "nama": "Simeulue Tengah"
+    },
+    {
+        "id": 253,
+        "kota_id": 18,
+        "nama": "Simeulue Timur"
+    },
+    {
+        "id": 254,
+        "kota_id": 18,
+        "nama": "Simeulue Cut"
+    },
+    {
+        "id": 255,
+        "kota_id": 18,
+        "nama": "Teupah Barat"
+    },
+    {
+        "id": 256,
+        "kota_id": 18,
+        "nama": "Teupah Tengah"
+    },
+    {
+        "id": 257,
+        "kota_id": 18,
+        "nama": "Teupah Selatan"
+    },
+    {
+        "id": 258,
+        "kota_id": 18,
+        "nama": "Teluk Dalam"
+    },
+    {
+        "id": 259,
+        "kota_id": 19,
+        "nama": "Baiturrahman"
+    },
+    {
+        "id": 260,
+        "kota_id": 19,
+        "nama": "Kuta Alam"
+    },
+    {
+        "id": 261,
+        "kota_id": 19,
+        "nama": "Meuraxa"
+    },
+    {
+        "id": 262,
+        "kota_id": 19,
+        "nama": "Syiah Kuala"
+    },
+    {
+        "id": 263,
+        "kota_id": 19,
+        "nama": "Lueng Bata"
+    },
+    {
+        "id": 264,
+        "kota_id": 19,
+        "nama": "Kuta Raja"
+    },
+    {
+        "id": 265,
+        "kota_id": 19,
+        "nama": "Banda Raya"
+    },
+    {
+        "id": 266,
+        "kota_id": 19,
+        "nama": "Jaya Baru"
+    },
+    {
+        "id": 277,
+        "kota_id": 19,
+        "nama": "Ulee Kareng"
+    },
+    {
+        "id": 278,
+        "kota_id": 20,
+        "nama": "Langsa Barat"
+    },
+    {
+        "id": 279,
+        "kota_id": 20,
+        "nama": "Langsa Baro"
+    },
+    {
+        "id": 280,
+        "kota_id": 20,
+        "nama": "Langsa Kota"
+    },
+    {
+        "id": 281,
+        "kota_id": 20,
+        "nama": "Langsa Lama"
+    },
+    {
+        "id": 282,
+        "kota_id": 20,
+        "nama": "Langsa Timur"
+    },
+    {
+        "id": 283,
+        "kota_id": 21,
+        "nama": "Banda Sakti"
+    },
+    {
+        "id": 284,
+        "kota_id": 21,
+        "nama": "Blang Mangat"
+    },
+    {
+        "id": 285,
+        "kota_id": 21,
+        "nama": "Muara Dua"
+    },
+    {
+        "id": 286,
+        "kota_id": 21,
+        "nama": "Muara Satu"
+    },
+    {
+        "id": 287,
+        "kota_id": 22,
+        "nama": "Sukajaya"
+    },
+    {
+        "id": 288,
+        "kota_id": 22,
+        "nama": "Sukakarya"
+    },
+    {
+        "id": 289,
+        "kota_id": 22,
+        "nama": "Sukamakmue"
+    },
+    {
+        "id": 290,
+        "kota_id": 23,
+        "nama": "Longkib"
+    },
+    {
+        "id": 291,
+        "kota_id": 23,
+        "nama": "Penanggalan"
+    },
+    {
+        "id": 292,
+        "kota_id": 23,
+        "nama": "Rundeng"
+    },
+    {
+        "id": 293,
+        "kota_id": 23,
+        "nama": "Simpang Kiri"
+    },
+    {
+        "id": 294,
+        "kota_id": 23,
+        "nama": "Sultan Daulat"
     }
 ]

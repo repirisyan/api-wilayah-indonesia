@@ -2,11 +2,116 @@
     {
         "id": 1,
         "provinsi_id": 1,
-        "nama": "Palang Karaya"
+        "nama": "Aceh Barat"
     },
     {
         "id": 2,
-        "provinsi_id": 2,
-        "nama": "Bandung"
+        "provinsi_id": 1,
+        "nama": "Aceh Barat Daya"
+    },
+    {
+        "id": 3,
+        "provinsi_id": 1,
+        "nama": "Aceh Besar"
+    },
+    {
+        "id": 4,
+        "provinsi_id": 1,
+        "nama": "Aceh Jaya"
+    },
+    {
+        "id": 5,
+        "provinsi_id": 1,
+        "nama": "Aceh Selatan"
+    },
+    {
+        "id": 6,
+        "provinsi_id": 1,
+        "nama": "Aceh Singkil"
+    },
+    {
+        "id": 7,
+        "provinsi_id": 1,
+        "nama": "Aceh Tamiang"
+    },
+    {
+        "id": 8,
+        "provinsi_id": 1,
+        "nama": "Aceh Tengah"
+    },
+    {
+        "id": 9,
+        "provinsi_id": 1,
+        "nama": "Aceh Tenggara"
+    },
+    {
+        "id": 10,
+        "provinsi_id": 1,
+        "nama": "Aceh Timur"
+    },
+    {
+        "id": 11,
+        "provinsi_id": 1,
+        "nama": "Aceh Utara"
+    },
+    {
+        "id": 12,
+        "provinsi_id": 1,
+        "nama": "Bener Meriah"
+    },
+    {
+        "id": 13,
+        "provinsi_id": 1,
+        "nama": "Bireuen"
+    },
+    {
+        "id": 14,
+        "provinsi_id": 1,
+        "nama": "Gayo Lues"
+    },
+    {
+        "id": 15,
+        "provinsi_id": 1,
+        "nama": "Nagan Raya"
+    },
+    {
+        "id": 16,
+        "provinsi_id": 1,
+        "nama": "Pidie"
+    },
+    {
+        "id": 17,
+        "provinsi_id": 1,
+        "nama": "Pidie Jaya"
+    },
+    {
+        "id": 18,
+        "provinsi_id": 1,
+        "nama": "Simculue"
+    },
+    {
+        "id": 19,
+        "provinsi_id": 1,
+        "nama": "Banda Aceh"
+    },
+    {
+        "id": 20,
+        "provinsi_id": 1,
+        "nama": "Langsa"
+    },
+    {
+        "id": 21,
+        "provinsi_id": 1,
+        "nama": "Lhokseumawe"
+    },
+    {
+        "id": 22,
+        "provinsi_id": 1,
+        "nama": "Sabang"
+    },
+    {
+        "id": 23,
+        "provinsi_id": 1,
+        "nama": "Subulussalam"
     }
 ]
