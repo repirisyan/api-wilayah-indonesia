@@ -80,13 +80,13 @@ export default function Home() {
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title">Kabupaten</div>
-              <div className="stat-value">1.000</div>
+              <div className="stat-title">Kota/Kabupaten</div>
+              <div className="stat-value">154</div>
             </div>
 
             <div className="stat place-items-center">
               <div className="stat-title">Kecamatan</div>
-              <div className="stat-value">2.000</div>
+              <div className="stat-value">1.953</div>
             </div>
 
           </div>
