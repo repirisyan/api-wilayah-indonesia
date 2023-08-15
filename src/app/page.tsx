@@ -7,7 +7,10 @@ import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicate
 import { useState } from "react";
 
 const CopyBoard = (pre: any) => {
+
+  //eslint-disable-next-line react-hooks/rules-of-hooks
   const [copyTip, setCopyTip] = useState("Copy code");
+
   return (
     <div className="relative">
       <span className='absolute p-2'>
