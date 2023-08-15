@@ -9,7 +9,7 @@ import { useState } from "react";
 const CopyBoard = (pre: any) => {
 
   //eslint-disable-next-line react-hooks/rules-of-hooks
-  const [copyTip, setCopyTip] = useState("Copy code");
+  const [copyTip, setCopyTip] = useState("Copy URL");
 
   return (
     <div className="relative">
