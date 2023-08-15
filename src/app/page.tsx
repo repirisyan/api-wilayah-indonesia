@@ -26,7 +26,7 @@ const CopyBoard = (pre: any) => {
           onCopy={async () => {
             setCopyTip("Copied");
             await new Promise((resolve) => setTimeout(resolve, 500));
-            setCopyTip(`Copy code`);
+            setCopyTip(`Copy URL`);
           }}>
           <DocumentDuplicateIcon className="h-5 w-5 cursor-pointer hover:text-blue-600" />
         </CopyToClipboard>
