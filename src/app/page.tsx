@@ -14,7 +14,7 @@ declare global {
 const CopyBoard = (pre: any) => {
 
   //eslint-disable-next-line react-hooks/rules-of-hooks
-  const [copyTip, setCopyTip] = useState("Copy URL");
+  const [copyTip, setCopyTip] = useState("Copy Code");
 
   return (
     <div className="relative">
@@ -31,7 +31,7 @@ const CopyBoard = (pre: any) => {
           onCopy={async () => {
             setCopyTip("Copied");
             await new Promise((resolve) => setTimeout(resolve, 500));
-            setCopyTip(`Copy URL`);
+            setCopyTip(`Copy Code`);
           }}>
           <DocumentDuplicateIcon className="h-5 w-5 cursor-pointer hover:text-blue-600" />
         </CopyToClipboard>
