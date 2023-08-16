@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Api Wilayah Indonesia',
-  description: 'API Statis Wilayah Indonesia',
+  title: 'API Wilayah Indonesia',
+  description: 'Public API Data Wilayah Indonesia',
 }
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
 "use client"
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import { PrismAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicateIcon";
@@ -150,7 +150,7 @@ export default function Home() {
       <dialog id="modalUsage" className="modal">
         <form method="dialog" className="modal-box">
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
-          <CodeBlock language={"javascript"} code={"\nasync function getDataKota(){\n const response = await fetch('https://region-indonesia.vercel.app/api/kota?provinsi_id=1');\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota();"} title={"JS"} />
+          <CodeBlock language={'javascript'} code={'\nasync function getDataKota(){\n const response = await fetch("https://region-indonesia.vercel.app/api/kota?provinsi_id=1");\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota()'} title={"JS"} />
         </form>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>
