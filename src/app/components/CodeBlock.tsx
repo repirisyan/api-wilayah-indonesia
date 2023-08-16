@@ -15,7 +15,7 @@ const CopyBoard = (props: any) => {
             <span className='absolute p-2'>
                 <small className='text-gray-100'>{props.title}</small>
             </span>
-            <button aria-label='Button Copy Code'
+            <button aria-label='Button Copy Code' type="button"
                 className="tooltip tooltip-left right-0 top-0 absolute p-2"
                 data-tip={copyTip}
             >
@@ -30,7 +30,7 @@ const CopyBoard = (props: any) => {
                     <DocumentDuplicateIcon className="h-5 w-5 cursor-pointer hover:text-blue-600" />
                 </CopyToClipboard>
             </button>
-        </div>
+        </div >
     );
 };
 

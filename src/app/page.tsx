@@ -1,12 +1,6 @@
 "use client"
 import dynamic from 'next/dynamic'
 
-declare global {
-  interface Window {
-    modalUsage: any
-  }
-}
-
 const CodeBlock = dynamic(() => import('./components/CodeBlock'));
 
 export default function Home() {
@@ -43,12 +37,12 @@ export default function Home() {
 
             <div className="stat place-items-center">
               <div className="stat-title text-white">Kota</div>
-              <div className="stat-value">154</div>
+              <div className="stat-value">290</div>
             </div>
 
             <div className="stat place-items-center">
               <div className="stat-title text-white">Kecamatan</div>
-              <div className="stat-value">1.953</div>
+              <div className="stat-value">3962</div>
             </div>
 
           </div>
@@ -66,8 +60,8 @@ export default function Home() {
             <div className="carousel-item w-full">
               <div className="stats shadow w-full text-white">
                 <div className="stat">
-                  <div className="stat-title text-white">Kota/Kabupaten</div>
-                  <div className="stat-value">154</div>
+                  <div className="stat-title text-white">Kota</div>
+                  <div className="stat-value">290</div>
                 </div>
               </div>
             </div>
@@ -75,7 +69,7 @@ export default function Home() {
               <div className="stats shadow w-full text-white">
                 <div className="stat">
                   <div className="stat-title text-white">Kecamatan</div>
-                  <div className="stat-value">1.953</div>
+                  <div className="stat-value">3962</div>
                 </div>
               </div>
             </div>
@@ -100,18 +94,19 @@ export default function Home() {
           <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kecamatan?kota_id={kota_id}"} title={"Method : GET"} />
         </section>
         <div className='text-center mt-5'>
-          <button className="btn" onClick={() => window.modalUsage.showModal()}>Contoh</button>
+          <label htmlFor="modalUsage" className="btn">Contoh</label>
         </div>
       </div>
-      <dialog id="modalUsage" className="modal">
-        <form method="dialog" className="modal-box">
+      <input type="checkbox" id="modalUsage" className="modal-toggle" />
+      <div id="modalUsage" className="modal">
+        <div className="modal-box">
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
           <CodeBlock language={'javascript'} code={'\nasync function getDataKota(){\n const response = await fetch("https://region-indonesia.vercel.app/api/kota?provinsi_id=1");\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota()'} title={"JS"} />
-        </form>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
-      </dialog>
+          <div className="modal-action">
+            <label htmlFor="modalUsage" className="btn">Close!</label>
+          </div>
+        </div>
+      </div>
       <div className="text-center mt-14">
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           &copy; 2023 . All Right Reserved
