@@ -1,9 +1,5 @@
 "use client"
-import { PrismAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import CopyToClipboard from 'react-copy-to-clipboard';
-import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicateIcon";
-import { useState } from "react";
+import dynamic from 'next/dynamic'
 
 declare global {
   interface Window {
@@ -11,47 +7,7 @@ declare global {
   }
 }
 
-const CopyBoard = (pre: any) => {
-
-  //eslint-disable-next-line react-hooks/rules-of-hooks
-  const [copyTip, setCopyTip] = useState("Copy Code");
-
-  return (
-    <div className="relative">
-      <span className='absolute p-2'>
-        <small className='text-gray-100'>{pre.title}</small>
-      </span>
-      <button
-        className="tooltip tooltip-left right-0 top-0 absolute p-2"
-        data-tip={copyTip}
-      >
-        <CopyToClipboard
-          text={pre.url}
-          // eslint-disable-next-line
-          onCopy={async () => {
-            setCopyTip("Copied");
-            await new Promise((resolve) => setTimeout(resolve, 500));
-            setCopyTip(`Copy Code`);
-          }}>
-          <DocumentDuplicateIcon className="h-5 w-5 cursor-pointer hover:text-blue-600" />
-        </CopyToClipboard>
-      </button>
-    </div>
-  );
-};
-
-const CodeBlock = (context: any) => {
-  return (
-    <div>
-      <CopyBoard url={context.code} title={context.title}></CopyBoard>
-      <SyntaxHighlighter
-        language={context.language}
-        style={oneDark}
-        children={context.code}
-      />
-    </div>
-  );
-};
+const CodeBlock = dynamic(() => import('./components/CodeBlock'));
 
 export default function Home() {
 
@@ -78,20 +34,20 @@ export default function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-current shrink-0 w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             <span>Still on Development...</span>
           </div>
-          <div className="stats shadow">
+          <div className="stats shadow text-white">
 
             <div className="stat place-items-center">
-              <div className="stat-title">Provinsi</div>
+              <div className="stat-title text-white">Provinsi</div>
               <div className="stat-value">38</div>
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title">Kota/Kabupaten</div>
+              <div className="stat-title text-white">Kota/Kabupaten</div>
               <div className="stat-value">154</div>
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title">Kecamatan</div>
+              <div className="stat-title text-white">Kecamatan</div>
               <div className="stat-value">1.953</div>
             </div>
 
@@ -100,25 +56,25 @@ export default function Home() {
         <section className='md:hidden mb-6 mx-auto text-center'>
           <div className="w-64 carousel rounded-box">
             <div className="carousel-item w-full">
-              <div className="stats shadow w-full">
+              <div className="stats shadow w-full text-white">
                 <div className="stat">
-                  <div className="stat-title">Provinsi</div>
+                  <div className="stat-title text-white">Provinsi</div>
                   <div className="stat-value">38</div>
                 </div>
               </div>
             </div>
             <div className="carousel-item w-full">
-              <div className="stats shadow w-full">
+              <div className="stats shadow w-full text-white">
                 <div className="stat">
-                  <div className="stat-title">Kota/Kabupaten</div>
+                  <div className="stat-title text-white">Kota/Kabupaten</div>
                   <div className="stat-value">154</div>
                 </div>
               </div>
             </div>
             <div className="carousel-item w-full">
-              <div className="stats shadow w-full">
+              <div className="stats shadow w-full text-white">
                 <div className="stat">
-                  <div className="stat-title">Kecamatan</div>
+                  <div className="stat-title text-white">Kecamatan</div>
                   <div className="stat-value">1.953</div>
                 </div>
               </div>
@@ -126,21 +82,21 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h1>
+          <span>
             Data Provinsi
-          </h1>
+          </span>
           <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/provinsi"} title={"Method : GET"} />
         </section>
         <section className='mt-5'>
-          <h1>
+          <span>
             Data Kota
-          </h1>
+          </span>
           <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kota?provinsi_id={provinsi_id}"} title={"Method : GET"} />
         </section>
         <section className='mt-5'>
-          <h1>
+          <span>
             Data Kecamatan
-          </h1>
+          </span>
           <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kecamatan?kota_id={kota_id}"} title={"Method : GET"} />
         </section>
         <div className='text-center mt-5'>
