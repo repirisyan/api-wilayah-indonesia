@@ -102,10 +102,8 @@ export default function Home() {
         <div className="modal-box">
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
           <CodeBlock language={'javascript'} code={'\nasync function getDataKota(){\n const response = await fetch("https://region-indonesia.vercel.app/api/kota?provinsi_id=1");\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota()'} title={"JS"} />
-          <div className="modal-action">
-            <label htmlFor="modalUsage" className="btn">Close!</label>
-          </div>
         </div>
+        <label className="modal-backdrop" htmlFor="modalUsage">Close</label>
       </div>
       <div className="text-center mt-14">
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
