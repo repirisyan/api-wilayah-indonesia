@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title text-white">Kota/Kabupaten</div>
+              <div className="stat-title text-white">Kota</div>
               <div className="stat-value">154</div>
             </div>
 
