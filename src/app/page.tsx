@@ -5,6 +5,12 @@ import CopyToClipboard from 'react-copy-to-clipboard';
 import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicateIcon";
 import { useState, useEffect } from "react";
 
+declare global {
+  interface Window {
+    modalUsage: any
+  }
+}
+
 const CopyBoard = (pre: any) => {
 
   //eslint-disable-next-line react-hooks/rules-of-hooks
