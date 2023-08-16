@@ -1,9 +1,9 @@
 "use client"
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import DocumentDuplicateIcon from "@heroicons/react/24/outline/DocumentDuplicateIcon";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 declare global {
   interface Window {
@@ -45,7 +45,7 @@ const CodeBlock = (context: any) => {
     <div>
       <CopyBoard url={context.code} title={context.title}></CopyBoard>
       <SyntaxHighlighter
-        language=""
+        language={context.language}
         style={oneDark}
         children={context.code}
       />
@@ -75,7 +75,7 @@ export default function Home() {
       <div className="mt-0 md:mt-20 grid grid-cols-1">
         <section className='hidden md:block mb-6 mx-auto'>
           <div className="alert bg-slate-400 mb-5 text-black">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-current shrink-0 w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             <span>Still on Development...</span>
           </div>
           <div className="stats shadow">
@@ -129,19 +129,19 @@ export default function Home() {
           <h1>
             Data Provinsi
           </h1>
-          <CodeBlock code={"\nhttps://region-indonesia.vercel.app/api/provinsi"} title={"Method : GET"} />
+          <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/provinsi"} title={"Method : GET"} />
         </section>
         <section className='mt-5'>
           <h1>
             Data Kota
           </h1>
-          <CodeBlock code={"\nhttps://region-indonesia.vercel.app/api/kota?provinsi_id={provinsi_id}"} title={"Method : GET"} />
+          <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kota?provinsi_id={provinsi_id}"} title={"Method : GET"} />
         </section>
         <section className='mt-5'>
           <h1>
             Data Kecamatan
           </h1>
-          <CodeBlock code={"\nhttps://region-indonesia.vercel.app/api/kecamatan?kota_id={kota_id}"} title={"Method : GET"} />
+          <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kecamatan?kota_id={kota_id}"} title={"Method : GET"} />
         </section>
         <div className='text-center mt-5'>
           <button className="btn" onClick={() => window.modalUsage.showModal()}>Contoh</button>
@@ -150,7 +150,7 @@ export default function Home() {
       <dialog id="modalUsage" className="modal">
         <form method="dialog" className="modal-box">
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
-          <CodeBlock code={"\n<script>\n async function getDataKota(){\n  const response = await fetch('https://region-indonesia.vercel.app/api/kota?provinsi_id=1');\n  const data = await response.json();\n  //Do something with the data \n }\n getDataKota();\n</script>"} title={"JS"} />
+          <CodeBlock language={"javascript"} code={"\nasync function getDataKota(){\n const response = await fetch('https://region-indonesia.vercel.app/api/kota?provinsi_id=1');\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota();"} title={"JS"} />
         </form>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>
