@@ -11,15 +11,12 @@ export default function Home() {
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           API WILAYAH INDONESIA
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div className="fixed bottom-0 left-0 flex h-auto w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+          <span
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:p-0"
           >
-            Next.JS
-          </a>
+            2023
+          </span>
         </div>
       </div>
       <div className="mt-0 md:mt-20 grid grid-cols-1">
@@ -93,7 +90,7 @@ export default function Home() {
           </span>
           <CodeBlock language={"uri"} code={"\nhttps://region-indonesia.vercel.app/api/kecamatan?kota_id={kota_id}"} title={"Method : GET"} />
         </section>
-        <div className='text-center mt-5'>
+        <div className='text-center mt-5 md:mb-5 mb-10'>
           <label htmlFor="modalUsage" className="btn">Contoh</label>
         </div>
       </div>
@@ -104,11 +101,6 @@ export default function Home() {
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
           <CodeBlock language={'javascript'} code={'\nasync function getDataKota(){\n const response = await fetch("https://region-indonesia.vercel.app/api/kota?provinsi_id=1");\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota()'} title={"JS"} />
         </div>
-      </div>
-      <div className="text-center mt-14">
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          &copy; 2023 . All Right Reserved
-        </p>
       </div>
     </main >
   )
