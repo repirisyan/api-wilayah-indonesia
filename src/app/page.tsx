@@ -6,7 +6,7 @@ const CodeBlock = dynamic(() => import('./components/CodeBlock'));
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 md:p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           API WILAYAH INDONESIA
@@ -47,7 +47,7 @@ export default function Home() {
 
           </div>
         </section>
-        <section className='md:hidden mb-6 mx-auto text-center'>
+        <section className='relative md:hidden mb-6 mt-16 text-center'>
           <div className="w-64 carousel rounded-box">
             <div className="carousel-item w-full">
               <div className="stats shadow w-full text-white">
@@ -100,10 +100,10 @@ export default function Home() {
       <input type="checkbox" id="modalUsage" className="modal-toggle" />
       <div id="modalUsage" className="modal">
         <div className="modal-box">
+          <label htmlFor="modalUsage" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">x</label>
           <h3 className="font-bold text-lg">Contoh Penggunaan</h3>
           <CodeBlock language={'javascript'} code={'\nasync function getDataKota(){\n const response = await fetch("https://region-indonesia.vercel.app/api/kota?provinsi_id=1");\n const data = await response.json();\n //Do something with the data\n}\ngetDataKota()'} title={"JS"} />
         </div>
-        <label className="modal-backdrop" htmlFor="modalUsage">Close</label>
       </div>
       <div className="text-center mt-14">
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
